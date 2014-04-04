@@ -1,0 +1,328 @@
+@font-face {
+  font-family: 'Rokkitt';
+  src: url('../fonts/Rokkitt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, Arial;
+  font-size: 16px;
+  background-color: #1c1f24;
+  color: #a8a079;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  color: #288ccc;
+  color: #d75813;
+  text-decoration: none;
+}
+a:hover {
+  color: #e86924;
+  text-decoration: underline;
+}
+a.bold {
+  font-weight: bold;
+  /*	color: @blue;
+*/
+  text-decoration: none;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+a:hover {
+  text-decoration: underline;
+}
+p .glyphicon {
+  font-size: 11px;
+  color: #eee8d7;
+}
+.form-shadow {
+  -webkit-box-shadow: 0 15px 15px -15px #000000;
+  -moz-box-shadow: 0 15px 15px -15px #000000;
+  box-shadow: 0 15px 15px -15px #000000;
+}
+.text-shadow {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+.no-border {
+  border-color: transparent;
+}
+.no-bg {
+  background-color: transparent;
+}
+.no-shadow {
+  -webkit-box-shadow: 0 15px 15px -15px transparent;
+  -moz-box-shadow: 0 15px 15px -15px transparent;
+  box-shadow: 0 15px 15px -15px transparent;
+}
+.central {
+  width: 300px;
+  margin: 0 auto;
+  /*position: fixed;
+	left: 50%;
+
+	top: 50%;	
+	margin-left: -140px;
+	margin-right: 0px;
+	margin-top: -110px;*/
+
+}
+.red {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  color: #ab0000;
+  font-weight: bold;
+}
+ul.details li {
+  /*.text-shadow;*/
+
+  display: inline-block;
+  background-color: #a8a079;
+  color: #1c1f24;
+  padding: 0px 5px 0px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  border-color: transparent;
+  margin: 2px;
+  font-weight: bold;
+  /*font-size:s small;*/
+
+}
+/* CENTRAL FORM STYLES*/
+.form-central {
+  width: 300px;
+  margin: 0 auto;
+  /*position: fixed;
+	left: 50%;
+
+	top: 50%;	
+	margin-left: -140px;
+	margin-right: 0px;
+	margin-top: -110px;*/
+
+  /*INPUTS*/
+
+  /*placeholders*/
+
+  /*BUTTONS*/
+
+}
+.form-central h1 {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  font-size: 36px;
+  font-family: 'Rokkitt';
+  letter-spacing: -1px;
+  color: #fdf6e5;
+  line-height: 28px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+.form-central h1 .glyphicon {
+  color: #288ccc;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.form-central h1 .grade {
+  color: #586e74;
+}
+.form-central h2 {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  font-family: 'Rokkitt';
+  letter-spacing: -1px;
+  color: #fdf6e5;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+.form-central h4 {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-family: 'Rokkitt';
+  letter-spacing: -1px;
+  color: #fdf6e5;
+  line-height: 20px;
+  margin-bottom: 2px;
+  padding: 0px;
+}
+.form-central h4 .grade {
+  color: #586e74;
+}
+.form-central h4 .dist {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 15px 15px -15px #000000;
+  -moz-box-shadow: 0 15px 15px -15px #000000;
+  box-shadow: 0 15px 15px -15px #000000;
+  display: inline-block;
+  background-color: #ab0000;
+  color: #fdf6e5;
+  padding: 0px 7px 0px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 2px;
+  float: right;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: small;
+}
+.form-central h4 .dist .glyphicon {
+  font-size: 10px;
+}
+.form-central ul {
+  padding: 0px;
+  margin: 0px;
+}
+.form-central li {
+  margin: 0px;
+  border-bottom: 1px solid #2d3035;
+  list-style: none;
+  padding: 5px 5px 15px 5px;
+}
+.form-central li p.more {
+  font-size: small;
+  margin: 0px;
+}
+.form-central .progress {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.form-central .progress .progress-bar {
+  background-color: #849930;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.form-central .form-control {
+  border-color: transparent;
+  background-color: transparent;
+  -webkit-box-shadow: 0 15px 15px -15px transparent;
+  -moz-box-shadow: 0 15px 15px -15px transparent;
+  box-shadow: 0 15px 15px -15px transparent;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #ffffe5;
+  color: #1c1f24;
+}
+.form-central .form-group {
+  margin-bottom: 10px;
+}
+.form-central .form-group-50 {
+  margin-bottom: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  width: 66%;
+}
+.form-central label {
+  display: block;
+  color: #fdf6e5;
+  margin-bottom: 0px;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+.form-central select.form-control {
+  width: auto;
+  display: inline-block;
+  background-color: #fff;
+  border-color: transparent;
+  -webkit-box-shadow: 0 15px 15px -15px transparent;
+  -moz-box-shadow: 0 15px 15px -15px transparent;
+  box-shadow: 0 15px 15px -15px transparent;
+  width: 100%;
+}
+.form-central input::-moz-placeholder {
+  color: #657b82;
+  opacity: 1;
+}
+.form-central input:-ms-input-placeholder {
+  color: #657b82;
+}
+.form-central input::-webkit-input-placeholder {
+  color: #657b82;
+}
+.form-central .btn-block {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 15px 15px -15px #000000;
+  -moz-box-shadow: 0 15px 15px -15px #000000;
+  box-shadow: 0 15px 15px -15px #000000;
+  border-color: transparent;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 28px;
+  font-family: 'Rokkitt';
+  padding: 0px;
+  letter-spacing: -1px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.form-central .btn-block .glyphicon {
+  font-size: 17px;
+  margin-right: 5px;
+}
+.form-central .btn-primary {
+  background-color: #288ccc;
+  color: #fdf6e5;
+  background-color: #849930;
+}
+.form-central .btn-primary:hover {
+  background-color: #95aa41;
+  color: #fff;
+}
+.form-central .btn-success {
+  background-color: #849930;
+}
+.form-central .btn-menu {
+  /*		background-color: @base03;
+		color: @coldheader;*/
+
+  /*background-color: @orange_;*/
+
+  background-color: #a8a079;
+  color: #fdf6e5;
+  /*.no-shadow;*/
+
+}
+.form-central .btn-menu:hover {
+  background-color: #b9b179;
+}
+.form-central .btn-claim {
+  background-color: #ab0000;
+  color: #fdf6e5;
+}
+.form-central .btn-claim:hover {
+  background-color: #cd2200;
+  color: #fff;
+}
+.form-central .btn-fav {
+  background-color: #d4357f;
+  color: #fdf6e5;
+}
+.form-central .signup {
+  margin-top: 40px;
+}
+.form-central .signup .btn-default {
+  font-weight: bold;
+  float: right;
+  margin-top: -7px;
+  background-color: transparent;
+  border-color: #a8a079;
+  color: #a8a079;
+  text-decoration: none;
+}
+.form-central .signup .btn-default:hover {
+  background-color: #a8a079;
+  border-color: #a8a079;
+  color: #1c1f24;
+}
+.form-central .signup .btn-default:active {
+  border-color: transparent;
+}

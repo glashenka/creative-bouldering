@@ -1,0 +1,395 @@
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('../fonts/Rokkitt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+    background-color: @gray; //@base00;
+    color: @base00w;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: @blue;
+	color: @orange_;
+	text-decoration: none;
+}
+
+a:hover {
+	color: @orange_ + #111;//@blue;
+	text-decoration: underline;
+}
+
+a.bold {
+	font-weight: bold;
+/*	color: @blue;
+*/	text-decoration: none;
+	.text-shadow;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p .glyphicon {
+	font-size: 11px;
+	color: @base2;
+}
+
+@base00: rgba(101,123,130,1);
+@base00w: rgba(130,123,101,1);
+@base00w: rgba(140,133,101,1)*1.2;
+
+
+@base01: rgba(88,110,116,1);
+
+
+@base02: rgba(7,54,65,1);
+@base02: rgba(3,43,45,1);
+@base03: rgba(3,43,53,1); //bg
+
+@base2: rgba(238,232,215,1);
+@base3: rgba(253,246,229,1);
+
+@yellow:rgba(181,136,45,1);
+@orange:rgba(203,73,38,1);
+@red:rgba(220,47,53,1);
+@red_: #AB0000;
+@orange_: #D75813;
+@gray: #1C1F24; // page bg
+
+@magenta:rgba(212,53,127,1);
+@violet:rgba(109,112,190,1);
+@blue:rgba(40,140,204,1); //button
+@cyan:rgba(40,161,152,1);
+@green:rgba(132,153,48,1);
+
+@d: 40px; //standart distance
+
+@header: @base3;
+@coldheader: rgba(229,246,253,1);
+
+.border-radius-custom (@tl: 5px, @tr: 5px, @bl: 5px, @br: 5px) {
+		-webkit-border-radius: @tl @tr @br @bl;
+		-moz-border-radius: @tl @tr @br @bl;
+		border-radius: @tl @tr @br @bl;
+}
+
+.form-shadow {
+	@c: rgba(0,0,0,1);
+	-webkit-box-shadow: 0 15px 15px -15px @c;
+	   -moz-box-shadow: 0 15px 15px -15px @c;
+	        box-shadow: 0 15px 15px -15px @c;
+}
+
+.text-shadow {
+	text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+}
+
+.no-border {
+	border-color: transparent;
+}
+
+.no-bg {
+	background-color: transparent;
+}
+
+.no-shadow {
+	@c: transparent;
+	-webkit-box-shadow: 0 15px 15px -15px @c;
+	   -moz-box-shadow: 0 15px 15px -15px @c;
+	        box-shadow: 0 15px 15px -15px @c;
+}
+
+.central{
+	width: 300px;
+	margin: 0 auto;
+	/*position: fixed;
+	left: 50%;
+
+	top: 50%;	
+	margin-left: -140px;
+	margin-right: 0px;
+	margin-top: -110px;*/
+}
+
+.red {
+	.text-shadow;
+	color: @red_;
+	font-weight: bold;
+}
+
+ul.details {
+	li {
+		/*.text-shadow;*/
+		display: inline-block;
+		background-color: @base00w;
+		color: @gray;
+		padding: 0px 5px 0px 5px;
+		.border-radius-custom;
+		.no-border;
+		margin: 2px;
+		font-weight: bold;
+		/*font-size:s small;*/
+	}
+}
+
+/* CENTRAL FORM STYLES*/
+.form-central {
+	.central;
+
+	h1 {
+		.text-shadow;
+		font-size:36px;
+		font-family: 'Rokkitt';
+		letter-spacing: -1px;
+		color: @header;
+		line-height: 28px;
+
+		margin-top: @d;
+		margin-bottom: 5px;
+		padding:0px;
+
+		.glyphicon {
+			color: @blue;
+			font-size: 16px;
+			margin-right: 10px;
+		}
+
+		.grade {
+			color: @base01;
+		}	
+	}
+
+	h2 {
+		.text-shadow;
+		font-size:32px;
+		font-family: 'Rokkitt';
+		letter-spacing: -1px;
+		color: @header;
+		line-height: 25px;
+		
+		margin-top: @d/2;
+		margin-bottom: 5px;
+		padding:0px;
+	}
+
+	h4 {
+		.text-shadow;
+		font-size:24px;
+		font-family: 'Rokkitt';
+		letter-spacing: -1px;
+		color: @header;
+		line-height: 20px;
+		
+		margin-bottom: 2px;
+		padding:0px;
+
+		.grade {
+			color: @base01;
+		}
+		.dist {
+			.text-shadow;
+			.form-shadow;
+		    display: inline-block;
+			background-color: @red_;//@base01;
+			color: @base3;
+			padding: 0px 7px 0px 5px;
+			.border-radius-custom;
+			margin: 2px;
+			float: right;
+			font-family: Arial;
+			font-weight: bold;
+			font-size: small;
+			.glyphicon {
+				font-size: 10px;
+			}
+		}
+	}
+	ul {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	li {
+		margin: 0px;
+		border-bottom: 1px solid @gray + #111;
+		list-style:none;
+		padding: 5px 5px 15px 5px;
+
+		p.more {
+			font-size: small;
+			margin: 0px;
+		}
+	}
+
+	.progress {
+		.border-radius-custom;
+		background-color: rgba(0,0,0,.1);
+		.progress-bar {
+			background-color: @green;
+			.text-shadow;
+			font-weight: bold;
+		}
+	}	
+
+
+
+
+/*INPUTS*/
+	.form-control{
+		.no-border;
+		.no-bg;
+		.no-shadow;
+		padding: 5px;
+		font-size: 16px;
+		background-color: @header + #110;
+		color: @gray;
+	}
+
+	.form-group {
+		margin-bottom: 10px;
+	}
+
+	.form-group-50 {
+		margin-bottom: 10px;
+		.no-bg;
+		.no-border;
+		.border-radius-custom;
+		width: 66%;		
+	}
+	
+	label {
+		display: block;
+		color: @header;
+		margin-bottom: 0px;
+		.text-shadow;
+	}
+
+	select.form-control {
+		width: auto;
+		display: inline-block;
+		background-color: #fff;
+		.no-border;
+		.no-shadow;
+		width: 100%;
+	}
+
+
+
+
+
+
+/*placeholders*/
+	input::-moz-placeholder {
+		color: @base00;
+		opacity: 1;
+	}
+	input:-ms-input-placeholder {
+		color: @base00;
+	}
+	input::-webkit-input-placeholder {
+		color: @base00;
+	}
+
+
+
+
+
+/*BUTTONS*/
+	.btn-block {
+		.text-shadow;
+		.form-shadow;
+		.no-border;
+
+		.border-radius-custom;
+		font-size:28px;
+		font-family: 'Rokkitt';
+		padding:0px;
+		letter-spacing: -1px;
+		margin-top: 15px;
+		text-decoration: none;
+
+		.glyphicon {
+			font-size: 17px;
+			margin-right: 5px;
+		}
+	}
+
+	.btn-primary {
+		background-color: @blue;
+		color: @header;//@coldheader;
+		background-color: @green;
+	}
+
+	.btn-primary:hover {
+		background-color: @green + #111;//#0e9ef1;
+		color: #fff;
+	}
+
+	.btn-success {
+		background-color: @green;
+	}
+
+	.btn-menu {
+/*		background-color: @base03;
+		color: @coldheader;*/
+		/*background-color: @orange_;*/
+		background-color: @base00w;
+		color: @header;
+		/*.no-shadow;*/
+	}
+	.btn-menu:hover {
+		background-color: @base00w + #110;
+	}
+
+	.btn-claim {
+		background-color: @red_;
+		color: @header;
+	}
+
+	.btn-claim:hover {
+		background-color: #cd2200;
+		color: #fff;
+	}
+
+	.btn-fav {
+		background-color: @magenta;
+		color: @header;
+	}
+
+	.signup {
+		margin-top: @d;
+
+		.btn-default {
+			font-weight: bold;
+			float:right;
+			margin-top:-7px;
+			background-color: transparent;
+			border-color: @base00w;
+			color: @base00w;
+			text-decoration: none;
+		}
+
+		.btn-default:hover {
+		background-color: @base00w;
+		border-color: @base00w;
+		color: @gray;
+		}
+
+		.btn-default:active {
+			.no-border;
+		}
+	}
+}
+

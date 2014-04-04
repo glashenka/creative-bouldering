@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>login</title>
+
+		<link href="css/bootstrap.min.css"  rel="stylesheet" type="text/css"/>
+		<link href="css/custom.css"  rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="js/lib/2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	</head>
+<body>
+
+
+
+
+<section id="sectionAuthorisation">
+	<form class="form-central" role="form" >
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Authorisation</h1>
+
+		<div class="form-group">
+			<label class="control-label" for="email">Email: </label>
+			<input type="email" name="email" class="form-control" id="authEmail" placeholder="Email" required>
+		</div>
+		
+		<div class="form-group">
+			<label class="control-label" for="password">Password: </label>
+			<input type="password" name="password" class="form-control" id="authPassword" placeholder="Password" required>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span> Sign in</a>
+				<p class="signup">Don't have an account?
+					<a class="btn btn-default" type="button">Sign up!</a>
+				</p>
+		</div>
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionRegistration">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Registration</h1>
+		
+		<div class="form-group">
+			<label class="control-label" for="">Email<span class="red">*</span>: </label>
+			<input type="email" name="email" class="form-control" id="regEmail" placeholder="Enter email" required>
+		</div>
+
+		<div class="form-group-50">
+			<label class="control-label" for="">First name<span class="red">*</span>: </label>
+			<input type="name" name="name" class="form-control" id="regName" required>
+		</div>
+
+		<div class="form-group-50">
+			<label class="control-label" for="">Surname<span class="red">*</span>: </label>
+			<input type="text" name="surname" class="form-control" id="regSurname" required>
+		</div>
+		
+		<div class="form-group">
+			<label class="control-label" for="">Password<span class="red">*</span>: </label>
+			<input type="password" name="password0" class="form-control" id="regPassword" placeholder="Enter password" required>
+		</div>
+		
+		<div class="form-group">		
+			<input type="password" name="password1" class="form-control" id="regPassword" placeholder="Repeat password" required>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-success btn-block" type="submit"><span class="glyphicon glyphicon-tree-deciduous"></span> Sign up</a>
+		</div>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionRegistrationSuccesful">
+	<form class="form-central">
+		
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Registration</h1>
+		
+		<p>Registration succesful. Confirmation letter was send to your email address.</p>
+		<p><span class="glyphicon glyphicon-arrow-right"></span> 
+			<a href="#" class="bold">Return to menu</a>
+		</p>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionConfirmationSuccesful">
+	<form class="form-central">
+		
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Email confirmed</h1>
+		
+		<p>Thank you!</p>
+		<p><span class="glyphicon glyphicon-arrow-right"></span> <a href="#" class="bold">Sign in</a></p>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionMainMenuG">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Main menu</h1>
+		
+		<div class="form-group">
+			<a class="btn btn-menu btn-block" type="submit"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block" type="submit"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
+		</div>
+		
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span>Sign in</a>
+			<p class="signup">Don't have an account?
+				<a class="btn btn-default" type="button">Sign up!</a>
+			</p>
+		</div>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionMainMenu">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Main menu</h1>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-fire"></span>News</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-user"></span>Friends</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-heart"></span>Projects</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-bullhorn"></span>Groups</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-cog"></span>Settings</a>
+		</div>
+
+		<div class="form-group">
+			<!-- <p class="signup">
+				<a class="btn btn-default" type="button">Sign off!</a>
+			</p> -->
+		</div>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionSharePhoto">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Upload photo</h1>
+
+		<p>Take as good photo as you can or choose from photos of the same boulder made by others.</p>
+		<p>Leave approx. 10-15% of space around the porblem.</p>
+
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" id="progressBar">50%</div>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-camera"></span> Choose/take photo</a>
+				<!-- <p class="signup">Photo exists?
+					<a class="btn btn-default" type="button">Yes!</a>
+				</p> -->
+		</div>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionProblemDescription">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span> -->Problem details</h1>
+		
+
+		<div class="form-group">
+			<label class="control-label" for="">Problem name<span class="red">*</span>: </label>
+			<input type="name" name="name" class="form-control" id="regName" required>
+		</div>
+
+		<div class="form-group">
+			<label class="control-label" for="">Description: </label>
+			<textarea class="form-control" rows="5" id="rRequest" name="request"></textarea>
+		</div>
+
+		<div class="form-group-50">
+			<label class="control-label" for="">Grade<span class="red">*</span>: </label>
+			<select class="form-control" id="someId" name="grade">
+				<option></option>
+			    <option value="0">V0</option>
+			    <option value="1">V1</option>
+			    <option value="2">V2</option>
+			    <option value="3">V3</option>
+			    <option value="4">V4</option>
+			    <option value="5">V5</option>
+			    <option value="6">V6</option>
+			    <option value="7">V7</option>
+			    <option value="8">V8</option>
+			    <option value="9">V9</option>
+			    <option value="10">V10</option>
+			    <option value="11">V11</option>
+			    <option value="11">V12</option>
+			    <option value="11">V13</option>
+			    <option value="11">V14</option>
+			    <option value="11">V15</option>
+			    <option value="11">V16</option>
+			    <option value="11">V17</option>
+			</select>
+		</div>
+		
+		<!-- <div class="form-group-50">
+			<label class="control-label" for="">Rating: </label>
+			<select class="form-control" id="someId" name="grade">
+				<option value=""></option>
+				<option value="">&#x2764;</option>
+			    <option value="">&#x2764;&#x2764;</option>
+			    <option value="">&#x2764;&#x2764;&#x2764;</option>
+			</select>
+		</div> -->
+
+		<div class="form-group-50">
+			<label class="control-label" for="">Start<span class="red">*</span>: </label>
+			<select class="form-control" id="someId" name="start">
+				<option></option>
+				<option value="">Sit down start</option>
+				<option value="">Standing</option>
+			</select>
+		</div>
+
+		<div class="form-group-50">
+			<label class="control-label" for="">Access<span class="red">*</span>: </label>
+			<select class="form-control" id="someId" name="start">
+				<option></option>
+				<option value="">Free</option>
+				<option value="">Commercial/Gym</option>
+				<option value="">Private</option>
+			</select>
+		</div>
+
+		<!-- <div class="form-group-50">
+			<label class="control-label" for="">Rock: </label>
+			<select class="form-control" id="someId" name="start">
+				<option value="">Artificial</option>
+				<option value="">Crystalline</option>
+				<option value="">Sandy</option>
+				<option value="">Smooth</option>
+			</select>
+		</div> -->
+
+		<div class="form-group">
+			<label class="control-label" for="">Approach description: </label>
+			<textarea class="form-control" rows="5" id="rRequest" name="request" required></textarea>
+		</div>
+
+		<!-- <div class="input-group">
+		<span class="input-group-addon glyphicon glyphicon-lock"></span>
+		<input type="text" name="text0" class="form-control" id="regtext" placeholder="Enter text" required>
+		</div>
+		
+		<div class="input-group">
+		<span class="input-group-addon glyphicon glyphicon-lock"></span>
+		<input type="text" name="text1" class="form-control" id="regtext" placeholder="Repeat text" required>
+		</div> -->
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-floppy-disk"></span> Save!</a>
+		</div>
+
+	</form>
+</section>
+
+
+
+
+
+<section id="sectionProblemDescription">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span> -->Feedback</h1>
+		
+
+		<div class="form-group">
+			<label class="control-label" for="">Comment<span class="red">*</span>: </label>
+			<textarea class="form-control" rows="5" id="rRequest" name="request"></textarea>
+		</div>
+
+		<div class="form-group-50">
+			<label class="control-label" for="">Your grade<span class="red">*</span>: </label>
+			<select class="form-control" id="someId" name="grade">
+				<option></option>
+			    <option value="0">V0</option>
+			    <option value="1">V1</option>
+			    <option value="2">V2</option>
+			    <option value="3">V3</option>
+			    <option value="4">V4</option>
+			    <option value="5">V5</option>
+			    <option value="6">V6</option>
+			    <option value="7">V7</option>
+			    <option value="8">V8</option>
+			    <option value="9">V9</option>
+			    <option value="10">V10</option>
+			    <option value="11">V11</option>
+			    <option value="11">V12</option>
+			    <option value="11">V13</option>
+			    <option value="11">V14</option>
+			    <option value="11">V15</option>
+			    <option value="11">V16</option>
+			    <option value="11">V17</option>
+			</select>
+		</div>
+		
+		<div class="form-group-50">
+			<label class="control-label" for="">Rating<span class="red">*</span>: </label>
+			<select class="form-control" id="someId" name="grade">
+				<option value=""></option>
+				<option value="">&#x2764;</option>
+			    <option value="">&#x2764;&#x2764;</option>
+			    <option value="">&#x2764;&#x2764;&#x2764;</option>
+			</select>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-fire"></span>Claim sendage</a>
+		</div>
+
+	</form>
+</section>
+
+
+
+
+<section id="sectionShareProblem">
+	<form class="form-central" role="form">
+
+		<h1><!-- <span class="glyphicon glyphicon-chevron-left"></span> -->Share the problem</h1>
+		
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-bullhorn"></span> Share in group</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-share-alt"></span> Share on facebook</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-paperclip"></span> Copy a link</a>
+		</div>
+		
+		<p>Important important text how it is important.</p>
+		<p><span class="glyphicon glyphicon-arrow-right"></span> 
+			<a href="#" class="bold">Return to menu</a></p>
+
+	</form>
+</section>
+
+
+
+
+<section id="sectionShareProblem">
+	<div class="form-central">
+
+		<h1>The Pharo's Headstone <span class="grade">V3(V4)</span></h1>
+		<p><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> <span class="red">&#x2764;&#x2764;&#x2764;</span></p>
+		
+		<h2>Description</h2>
+		<p>Hard and thin start climbing up the corner and around the roof. The stand start goes around V4.</p>
+
+		<h2>Approach</h2>
+		<p>From Little Bluestone Bay follow the coast leftwards (east/north) for 200m until you see the prominent pinnacle of the Sentinel. The Pharos is a group of edges just to the south of the Sentinel.</p>
+
+		<h2>Details</h2>
+		<ul class="details">
+			<li>Free access</li>
+			<li>Sit down start</li>
+			<li>Artificial holds</li>
+		</ul>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-map-marker"></span>View map</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-camera"></span>View sequence</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-heart"></span>Add to projects</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-comment"></span>Read comments</a>
+		</div>
+
+		<div class="form-group">
+			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-fire"></span>Claim sendage</a>
+		</div>
+
+	</div>
+</section>
+
+
+
+<section id="sectionShareProblem">
+	<div class="form-central">
+		<h1>Browse</h1>
+		<ul>
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 1 m</span>
+					No name 
+					<span class="grade">V1(V0)</span>
+				</h4>
+				<p class="more">
+					<span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> 
+					<span class="red">&#x2764;</span>
+				</p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 15 m</span>
+					No name 
+					<span class="grade">V1(V0)</span>
+
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Blair Campbell</a> <span class="red"></span></p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 214 m</span>
+					No name 
+					<span class="grade">V1(V0)</span>
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a> <span class="red">&#x2764;</span></p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 1023 m</span>
+					Relatively long and complicated name for a problems
+					<span class="grade">V1(V0)</span>
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a> <span class="red">&#x2764;&#x2764;&#x2764;</span></p>
+			</li>
+
+		</ul>
+	</div>
+</section>
+<br><br><br><br><br><br>
+
+
+<script type="text/javascript">
+jQuery(function($) {
+	console.log('Document is ready.');
+	// $('#sectionAuthorisation').hide();
+	// $('#sectionRegistration').show();
+
+
+
+
+});
+
+
+
+</script></body></html>
