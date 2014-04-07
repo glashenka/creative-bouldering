@@ -11,28 +11,25 @@ body {
   font-family: Helvetica, Arial;
   font-size: 16px;
   background-color: #1c1f24;
-  color: #657b82;
+  color: #a8a079;
 }
 * {
   -webkit-font-smoothing: antialiased;
 }
 a {
   color: #288ccc;
-  /*color: @orange_;*/
-
-  /*text-decoration: none;*/
-
-  text-decoration: underline;
+  color: #d75813;
+  text-decoration: none;
 }
 a:hover {
-  color: #399ddd;
+  color: #e86924;
   text-decoration: underline;
 }
 a.bold {
   font-weight: bold;
   /*	color: @blue;
 */
-  text-decoration: underline;
+  text-decoration: none;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
 a:hover {
@@ -82,7 +79,7 @@ ul.details li {
   /*.text-shadow;*/
 
   display: inline-block;
-  background-color: #4f5257;
+  background-color: #856d35;
   color: #1c1f24;
   padding: 0px 5px 0px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -118,34 +115,26 @@ ul.details li {
   font-size: 36px;
   font-family: 'Rokkitt';
   letter-spacing: -1px;
-  color: #ffffff;
+  color: #fdf6e5;
   line-height: 28px;
   margin-top: 40px;
   margin-bottom: 5px;
   padding: 0px;
 }
+.form-central h1 .glyphicon {
+  color: #288ccc;
+  font-size: 16px;
+  margin-right: 10px;
+}
 .form-central h1 .grade {
   color: #586e74;
-}
-.form-central h1 .new {
-  font-size: 22px;
-  color: #d75813;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
-}
-.form-central h1 sup {
-  font-family: Arial;
-  font-size: 14px;
-  letter-spacing: 0px;
-  font-weight: bold;
-  color: #586e74;
-  margin-left: 5px;
 }
 .form-central h2 {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
   font-size: 32px;
   font-family: 'Rokkitt';
   letter-spacing: -1px;
-  color: #ffffff;
+  color: #fdf6e5;
   line-height: 25px;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -156,24 +145,12 @@ ul.details li {
   font-size: 24px;
   font-family: 'Rokkitt';
   letter-spacing: -1px;
-  color: #ffffff;
+  color: #fdf6e5;
   line-height: 20px;
   margin-bottom: 2px;
   padding: 0px;
 }
 .form-central h4 .grade {
-  color: #586e74;
-}
-.form-central h4 .new {
-  font-size: 16px;
-  color: #d75813;
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
-}
-.form-central h4 sup {
-  font-family: Arial;
-  font-size: 11px;
-  letter-spacing: 0px;
-  font-weight: bold;
   color: #586e74;
 }
 .form-central h4 .dist {
@@ -182,7 +159,7 @@ ul.details li {
   -moz-box-shadow: 0 15px 15px -15px #000000;
   box-shadow: 0 15px 15px -15px #000000;
   display: inline-block;
-  background-color: #849930;
+  background-color: #ab0000;
   color: #fdf6e5;
   padding: 0px 7px 0px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -200,7 +177,6 @@ ul.details li {
 .form-central ul {
   padding: 0px;
   margin: 0px;
-  margin-bottom: 20px;
 }
 .form-central li {
   margin: 0px;
@@ -231,7 +207,7 @@ ul.details li {
   box-shadow: 0 15px 15px -15px transparent;
   padding: 5px;
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: #ffffe5;
   color: #1c1f24;
 }
 .form-central .form-group {
@@ -248,7 +224,7 @@ ul.details li {
 }
 .form-central label {
   display: block;
-  color: #ffffff;
+  color: #fdf6e5;
   margin-bottom: 0px;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
@@ -294,38 +270,31 @@ ul.details li {
 }
 .form-central .btn-primary {
   background-color: #288ccc;
-  color: #ffffff;
-  /*background-color: @green;*/
-
+  color: #fdf6e5;
+  background-color: #849930;
 }
 .form-central .btn-primary:hover {
-  background-color: #399ddd;
+  background-color: #95aa41;
   color: #fff;
 }
 .form-central .btn-success {
   background-color: #849930;
-  color: #fdf6e5;
-}
-.form-central .btn-success:hover {
-  background-color: #95aa41;
-  color: #fdf6e5;
 }
 .form-central .btn-menu {
-  background-color: #032b35;
-  color: #e5f6fd;
-  /*background-color: @orange_;*/
+  /*		background-color: @base03;
+		color: @coldheader;*/
 
+  background-color: #d75813;
   /*background-color: @base00wd;*/
 
   /*background-color: @yellow;*/
 
-  /*color: @header;*/
-
+  color: #fdf6e5;
   /*.no-shadow;*/
 
 }
 .form-central .btn-menu:hover {
-  background-color: #143c46;
+  background-color: #e86924;
   color: #fff;
 }
 .form-central .btn-claim {
@@ -334,11 +303,11 @@ ul.details li {
 }
 .form-central .btn-claim:hover {
   background-color: #cd2200;
-  color: #fdf6e5;
+  color: #fff;
 }
 .form-central .btn-fav {
   background-color: #d4357f;
-  color: #ffffff;
+  color: #fdf6e5;
 }
 .form-central .signup {
   margin-top: 40px;
@@ -348,13 +317,13 @@ ul.details li {
   float: right;
   margin-top: -7px;
   background-color: transparent;
-  border-color: #657b82;
-  color: #657b82;
+  border-color: #a8a079;
+  color: #a8a079;
   text-decoration: none;
 }
 .form-central .signup .btn-default:hover {
-  background-color: #657b82;
-  border-color: #657b82;
+  background-color: #a8a079;
+  border-color: #a8a079;
   color: #1c1f24;
 }
 .form-central .signup .btn-default:active {

@@ -21,22 +21,22 @@
 <section id="sectionAuthorisation">
 	<form class="form-central" role="form" >
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Authorisation</h1>
+		<h1>Authorisation</h1>
 
 		<div class="form-group">
 			<label class="control-label" for="email">Email: </label>
-			<input type="email" name="email" class="form-control" id="authEmail" placeholder="Email" required>
+			<input type="email" name="email" class="form-control" id="authorisationEmail" placeholder="Email" required>
 		</div>
 		
 		<div class="form-group">
 			<label class="control-label" for="password">Password: </label>
-			<input type="password" name="password" class="form-control" id="authPassword" placeholder="Password" required>
+			<input type="password" name="password" class="form-control" id="authorisationPassword" placeholder="Password" required>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span> Sign in</a>
+			<a class="btn btn-primary btn-block" id="authorisationSubmit"><span class="glyphicon glyphicon-ok"></span> Sign in</a>
 				<p class="signup">Don't have an account?
-					<a class="btn btn-default" type="button">Sign up!</a>
+					<a class="btn btn-default">Sign up!</a>
 				</p>
 		</div>
 	</form>
@@ -49,34 +49,34 @@
 <section id="sectionRegistration">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Registration</h1>
+		<h1>Registration</h1>
 		
 		<div class="form-group">
 			<label class="control-label" for="">Email<span class="red">*</span>: </label>
-			<input type="email" name="email" class="form-control" id="regEmail" placeholder="Enter email" required>
+			<input type="email" name="email" class="form-control" id="registrationEmail" placeholder="Enter email" required>
 		</div>
 
 		<div class="form-group-50">
 			<label class="control-label" for="">First name<span class="red">*</span>: </label>
-			<input type="name" name="name" class="form-control" id="regName" required>
+			<input type="name" name="name" class="form-control" id="registrationName" required>
 		</div>
 
 		<div class="form-group-50">
 			<label class="control-label" for="">Surname<span class="red">*</span>: </label>
-			<input type="text" name="surname" class="form-control" id="regSurname" required>
+			<input type="text" name="surname" class="form-control" id="registrationSurname" required>
 		</div>
 		
 		<div class="form-group">
 			<label class="control-label" for="">Password<span class="red">*</span>: </label>
-			<input type="password" name="password0" class="form-control" id="regPassword" placeholder="Enter password" required>
+			<input type="password" name="password0" class="form-control" id="registrationPassword0" placeholder="Enter password" required>
 		</div>
 		
 		<div class="form-group">		
-			<input type="password" name="password1" class="form-control" id="regPassword" placeholder="Repeat password" required>
+			<input type="password" name="password1" class="form-control" id="registrationPassword1" placeholder="Repeat password" required>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-success btn-block" type="submit"><span class="glyphicon glyphicon-tree-deciduous"></span> Sign up</a>
+			<a class="btn btn-success btn-block"><span class="glyphicon glyphicon-tree-deciduous" id="registrationSubmit"></span> Sign up</a>
 		</div>
 
 	</form>
@@ -89,7 +89,7 @@
 <section id="sectionRegistrationSuccesful">
 	<form class="form-central">
 		
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Registration</h1>
+		<h1>Registration</h1>
 		
 		<p>Registration succesful. Confirmation letter was send to your email address.</p>
 		<p><span class="glyphicon glyphicon-arrow-right"></span> 
@@ -106,7 +106,7 @@
 <section id="sectionConfirmationSuccesful">
 	<form class="form-central">
 		
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Email confirmed</h1>
+		<h1>Email confirmed</h1>
 		
 		<p>Thank you!</p>
 		<p><span class="glyphicon glyphicon-arrow-right"></span> <a href="#" class="bold">Sign in</a></p>
@@ -121,20 +121,20 @@
 <section id="sectionMainMenuG">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Main menu</h1>
+		<h1>Main menu</h1>
 		
 		<div class="form-group">
-			<a class="btn btn-menu btn-block" type="submit"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
+			<a class="btn btn-menu btn-block" id="mmgBrowse"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block" type="submit"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
+			<a class="btn btn-menu btn-block" id="mmgShare"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
 		</div>
 		
 		<div class="form-group">
-			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span>Sign in</a>
+			<a class="btn btn-primary btn-block"  id="mmgSignin"><span class="glyphicon glyphicon-ok"></span>Sign in</a>
 			<p class="signup">Don't have an account?
-				<a class="btn btn-default" type="button">Sign up!</a>
+				<a class="btn btn-default" type="button" id="mmgSignup">Sign up!</a>
 			</p>
 		</div>
 
@@ -148,42 +148,35 @@
 <section id="sectionMainMenu">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Main menu</h1>
+		<h1>Main menu</h1>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
+			<a class="btn btn-menu btn-block" id="mmBrowse"><span class="glyphicon glyphicon-map-marker"></span>Browse</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
+			<a class="btn btn-menu btn-block" id="mmShare"><span class="glyphicon glyphicon-share-alt"></span>Share</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-fire"></span>News</a>
+			<a class="btn btn-menu btn-block" id="mmNews"><span class="glyphicon glyphicon-fire"></span>News</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-user"></span>Friends</a>
+			<a class="btn btn-menu btn-block" id="mmFriends"><span class="glyphicon glyphicon-user"></span>Friends</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-heart"></span>Projects</a>
+			<a class="btn btn-menu btn-block" id="mmProjects"><span class="glyphicon glyphicon-heart"></span>Projects</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-bullhorn"></span>Groups</a>
+			<a class="btn btn-menu btn-block" id="mmGroups"><span class="glyphicon glyphicon-bullhorn"></span>Groups</a>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-menu btn-block"><span class="glyphicon glyphicon-cog"></span>Settings</a>
+			<a class="btn btn-menu btn-block" id="mmSettings"><span class="glyphicon glyphicon-cog"></span>Settings</a>
 		</div>
-
-		<div class="form-group">
-			<!-- <p class="signup">
-				<a class="btn btn-default" type="button">Sign off!</a>
-			</p> -->
-		</div>
-
 	</form>
 </section>
 
@@ -194,20 +187,17 @@
 <section id="sectionSharePhoto">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span>  -->Upload photo</h1>
+		<h1>Upload photo</h1>
 
 		<p>Take as good photo as you can or choose from photos of the same boulder made by others.</p>
 		<p>Leave approx. 10-15% of space around the porblem.</p>
 
 		<div class="progress">
-			<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" id="progressBar">50%</div>
+			<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" id="uploadProgressBar">50%</div>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-camera"></span> Choose/take photo</a>
-				<!-- <p class="signup">Photo exists?
-					<a class="btn btn-default" type="button">Yes!</a>
-				</p> -->
+			<a class="btn btn-primary btn-block" id="upload"><span class="glyphicon glyphicon-camera"></span> Choose/take photo</a>
 		</div>
 
 	</form>
@@ -220,8 +210,7 @@
 <section id="sectionProblemDescription">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span> -->Problem details</h1>
-		
+		<h1>Problem details</h1>
 
 		<div class="form-group">
 			<label class="control-label" for="">Problem name<span class="red">*</span>: </label>
@@ -257,16 +246,6 @@
 			    <option value="11">V17</option>
 			</select>
 		</div>
-		
-		<!-- <div class="form-group-50">
-			<label class="control-label" for="">Rating: </label>
-			<select class="form-control" id="someId" name="grade">
-				<option value=""></option>
-				<option value="">&#x2764;</option>
-			    <option value="">&#x2764;&#x2764;</option>
-			    <option value="">&#x2764;&#x2764;&#x2764;</option>
-			</select>
-		</div> -->
 
 		<div class="form-group-50">
 			<label class="control-label" for="">Start<span class="red">*</span>: </label>
@@ -287,30 +266,10 @@
 			</select>
 		</div>
 
-		<!-- <div class="form-group-50">
-			<label class="control-label" for="">Rock: </label>
-			<select class="form-control" id="someId" name="start">
-				<option value="">Artificial</option>
-				<option value="">Crystalline</option>
-				<option value="">Sandy</option>
-				<option value="">Smooth</option>
-			</select>
-		</div> -->
-
 		<div class="form-group">
 			<label class="control-label" for="">Approach description: </label>
 			<textarea class="form-control" rows="5" id="rRequest" name="request" required></textarea>
 		</div>
-
-		<!-- <div class="input-group">
-		<span class="input-group-addon glyphicon glyphicon-lock"></span>
-		<input type="text" name="text0" class="form-control" id="regtext" placeholder="Enter text" required>
-		</div>
-		
-		<div class="input-group">
-		<span class="input-group-addon glyphicon glyphicon-lock"></span>
-		<input type="text" name="text1" class="form-control" id="regtext" placeholder="Repeat text" required>
-		</div> -->
 
 		<div class="form-group">
 			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-floppy-disk"></span> Save!</a>
@@ -326,7 +285,7 @@
 <section id="sectionProblemDescription">
 	<form class="form-central" role="form">
 
-		<h1><!-- <span class="glyphicon glyphicon-chevron-down"></span> -->Feedback</h1>
+		<h1>Feedback</h1>
 		
 
 		<div class="form-group">
@@ -363,14 +322,14 @@
 			<label class="control-label" for="">Rating<span class="red">*</span>: </label>
 			<select class="form-control" id="someId" name="grade">
 				<option value=""></option>
-				<option value="">&#x2764;</option>
-			    <option value="">&#x2764;&#x2764;</option>
-			    <option value="">&#x2764;&#x2764;&#x2764;</option>
+				<option value="">&#x2764; Good</option>
+			    <option value="">&#x2764;&#x2764; Very good</option>
+			    <option value="">&#x2764;&#x2764;&#x2764; Exceptional</option>
 			</select>
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-fire"></span>Claim sendage</a>
+			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span>Claim sendage</a>
 		</div>
 
 	</form>
@@ -410,8 +369,12 @@
 <section id="sectionShareProblem">
 	<div class="form-central">
 
-		<h1>The Pharo's Headstone <span class="grade">V3(V4)</span></h1>
-		<p><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> <span class="red">&#x2764;&#x2764;&#x2764;</span></p>
+		<h1>
+			<span class="glyphicon glyphicon-fire new"></span> 
+			The Pharo
+			<span class="grade"><span title="People's grade">V3</span>/<span title="Author's grade">V4</span></span><sup><span class="red">&#x2764;&#x2764;&#x2764;</span>234</sup>
+		</h1>
+		<p><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> (4590 followers)</p>
 		
 		<h2>Description</h2>
 		<p>Hard and thin start climbing up the corner and around the roof. The stand start goes around V4.</p>
@@ -427,7 +390,7 @@
 		</ul>
 
 		<div class="form-group">
-			<a class="btn btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-map-marker"></span>View map</a>
+			<a class="btn btn-success btn-block" type="submit"><span class="glyphicon glyphicon-map-marker"></span>View map</a>
 		</div>
 
 		<div class="form-group">
@@ -443,9 +406,12 @@
 		</div>
 
 		<div class="form-group">
-			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-fire"></span>Claim sendage</a>
+			<a class="btn btn-claim btn-block" type="submit"><span class="glyphicon glyphicon-ok"></span>Claim sendage</a>
 		</div>
 
+		<p><span class="glyphicon glyphicon-arrow-right"></span> 
+			<a href="#" class="bold">More</a></p>
+	
 	</div>
 </section>
 
@@ -458,20 +424,21 @@
 			<li>
 				<h4>
 					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 1 m</span>
+					<span class="glyphicon glyphicon-fire new"></span>
 					No name 
 					<span class="grade">V1(V0)</span>
+					<sup><span class="red">&#x2764;</span>6</sup>
 				</h4>
 				<p class="more">
 					<span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> 
-					<span class="red">&#x2764;</span>
 				</p>
 			</li>
 
 			<li>
 				<h4>
 					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 15 m</span>
-					No name 
-					<span class="grade">V1(V0)</span>
+					Zeitgeist
+					<span class="grade">V2(V2)</span>
 
 				</h4>
 				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Blair Campbell</a> <span class="red"></span></p>
@@ -480,22 +447,73 @@
 			<li>
 				<h4>
 					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 214 m</span>
-					No name 
-					<span class="grade">V1(V0)</span>
+					<span class="glyphicon glyphicon-fire new" title="New!"></span>
+					Blablabla
+					<span class="grade">V3(V3)</span>
 				</h4>
-				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a> <span class="red">&#x2764;</span></p>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a></p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist">
+						<span class="glyphicon glyphicon-map-marker"></span></a> 1023 m
+					</span>
+					<span class="glyphicon glyphicon-fire new"></span>
+					Relatively long and complicated name for a problems
+					<span class="grade">V4(V5)</span>
+					<sup><span class="red">&#x2764;&#x2764;&#x2764;</span>234</sup>
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a></p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 1 m</span>
+					Awesome moves 
+					<span class="grade">V3(V3)</span>
+				</h4>
+				<p class="more">
+					<span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Sam Bowman</a> 
+				</p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 15 m</span>
+					Crimpy shit 
+					<span class="grade">V4(V2)</span>
+
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Blair Campbell</a></p>
+			</li>
+
+			<li>
+				<h4>
+					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 214 m</span>
+					Orange 
+					<span class="grade">V3(V3)</span>
+					<sup><span class="red">&#x2764;</span>12</sup>
+				</h4>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a></p>
 			</li>
 
 			<li>
 				<h4>
 					<span class="dist"><span class="glyphicon glyphicon-map-marker"></span></a> 1023 m</span>
-					Relatively long and complicated name for a problems
-					<span class="grade">V1(V0)</span>
+					<span class="glyphicon glyphicon-fire new"></span>
+					Relatively long name
+					<span class="grade">V6(V7)</span>
+					<sup><span class="red">&#x2764;</span>5</sup>
 				</h4>
-				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a> <span class="red">&#x2764;&#x2764;&#x2764;</span></p>
+				<p class="more"><span class="glyphicon glyphicon-user"></span> <a href="" class="bold">Mitch Keft</a></p>
 			</li>
 
 		</ul>
+		
+		<p><span class="glyphicon glyphicon-arrow-right"></span> 
+			<a href="#" class="bold">More</a></p>
+	
 	</div>
 </section>
 <br><br><br><br><br><br>
